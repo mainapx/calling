@@ -1,0 +1,81 @@
+
+@media (min-width:800px) and (max-width:4096px){
+	#mycardhandler{
+		background-color:purple;
+	}
+	#chatul{
+		margin-left:0px;
+		margin-right:0px;
+	}
+
+	#proprender{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#chatccard > .card-body{
+		height:350px;
+		overflow-y:scroll;
+		padding-left:0;
+	}
+	#chatcard{
+		box-shadow:1px 1px 3px 1px grey;
+		border:0px;
+	}
+	#chatcard > .card-header >center> h4{
+		color:white;
+		font-weight:bold;
+	}
+	#chatul > li:hover{
+		background-color:#A3A3B3;
+	}
+	#chatul > li{
+		align-items: center;
+		display:flex;
+		cursor:pointer;
+		padding:10px;
+		margin:0px;
+	}
+	#chatul li a{
+		width:100%;
+		font-weight:bold;
+		color:black;
+	}
+}
+@media(min-width:400px) and (max-width:799px){
+	#mycardhandler{
+		background-color:purple;
+	}
+
+	#chatcard{
+				box-shadow:3px 3px 3px 1px #040405;
+
+	}
+	#chatcard > .card-header >center> h4{
+		color:white;
+		font-weight:bold;
+	}
+	#chatul > li:hover{
+		background-color:#A3A3B3;
+	}
+	#chatul > li{
+		align-items: center;
+	}	
+}
+@media(min-device-width:375px) and (max-device-width:812px){
+	#chatul{
+		margin:0;
+		display:inline-block;
+	}
+	center > h4{
+		left:15px;
+	}
+	#chatul > li>a {
+		font-size:3vw;
+	}
+
+}
+@media(min-device-width:375px) and (max-device-width:812px)
+{
+
+}
+

@@ -1,0 +1,32 @@
+.setting-dropdown .dropdown-menu{
+    padding: 10px 0px 10px 0px;
+    left: auto;
+    z-index:10;
+    right: -24px;
+    box-shadow: 1px 1px 1px 1px gray;
+  }
+ 
+  
+  .setting-dropdown .dropdown-menu i{
+    color:grey;
+
+    padding-right:20px;
+  }
+  .setting-dropdown .dropdown-menu .dropdown-item{
+    margin-bottom:10px;
+    cursor: pointer;
+  }
+
+  .setting-dropdown  .dropdown-item:last-child{
+    cursor:text;
+  }
+
+
+  .setting-dropdown .dropdown-item{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .setting-dropdown .dropdown-item:active{
+    background-color:rgb(245, 241, 241);
+  }
+  

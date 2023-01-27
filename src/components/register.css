@@ -1,0 +1,39 @@
+
+@media (max-width:4096px){
+	#phonerror,#emailError,#passworderror{
+		color:red;
+		font-size:15px;
+	}
+	.modal-header > center> h4{
+		position:relative;
+		color:white;
+	}
+	.modal-header > a{
+		color:white;
+	}
+	.modal-header{
+		background-color:rgb(208, 211, 195);
+		border-bottom:1px solid black;
+	}
+	.modal-content .container{
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.modal-content .container .MuiFormControl-root{
+		margin-bottom:10px;
+	}
+
+	.passId,.userId{
+		width:100% !important;
+	}
+	.country_phone{
+		display :flex;
+		align-items:center !important;
+	}
+	.country_phone div .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiInputBase-input.MuiInput-input{
+		display:flex;
+		align-items:center;
+	}
+
+
+}

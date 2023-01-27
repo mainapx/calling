@@ -1,0 +1,27 @@
+.alert-black{
+    background-color:black;
+    color:white;
+    width:500px;
+    margin:0 auto;
+    position:fixed;
+    bottom:0px;
+    padding:10px;
+    text-align:center;
+    border-radius:5px;
+    box-shadow:0px 0px 2px 3px grey;
+    z-index:900;
+}
+.alert-black i{
+    color:white;
+}
+.alert-black button{
+    padding:20px;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+#notification{
+    display:flex;
+    justify-content: center;
+}

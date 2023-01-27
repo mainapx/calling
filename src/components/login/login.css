@@ -1,0 +1,79 @@
+
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+@media (max-width:4096px){
+
+
+	.card-header{
+			background-color:#F7EbE9
+
+			}
+	#loginbtn{
+		width:100%;
+		margin-top:10px;
+	}
+	#erroralert{
+		background-color:red;
+		color:white;
+	}
+	#mymodal{
+		padding-right:0;
+	}
+	body{
+		padding-right:0;
+	}
+	.invalid-input{
+		color:red;
+		font-size:14px;
+	}
+	.passId,.userId{
+		width:100%;
+		margin-bottom:0px !important;
+	}
+	.passId{
+		width:100%;
+		margin-top:20px !important;
+
+	}
+}
+@media(min-device-width:375px) and (max-device-width:812px) and (-webkit-min-device-pixel-ratio:3){
+	h4{
+		position:relative;
+		right:40px;
+		font-size:5vw;
+	}
+	#loginbtn{
+		background-color:red;
+		color:white;
+		width:100%;
+		font-size:8vw;
+	}
+	.form-group{
+		margin-top:10vw;
+		line-height:15vw;
+	}
+	.passId,.userId{
+		width:100%;
+	}
+
+}
+@media(min-width:375px) and (max-width:799px){
+	#mymodal{
+		z-index:5600;
+	}
+	.modal-header > center > h4{
+		position:relative;
+		right:20px;
+	}
+	#sign{
+		position: relative;
+		right:100px;
+	}
+	.form-group{
+		margin-top:10vw;
+		line-height:15vw;
+	}
+}
+	

@@ -1,0 +1,30 @@
+@media(max-width:4096px){
+	.fa-close{
+		color:black;
+		font-size:30px;
+		
+	}
+
+	.fa-phone,.fa-cog,.fa-phone{
+		color:white;
+	}
+
+	#avatar{
+		z-index:1000;
+		background-color:purple;
+		position: fixed;
+		right:0px;
+		display:flex;
+		align-items:center;
+		justify-content: center;
+		border-radius:50%;
+		bottom:20px;
+		color:white;
+		margin-right:20px;		
+	}
+	#avatar:hover{
+		background-color:black;
+	}
+
+
+}

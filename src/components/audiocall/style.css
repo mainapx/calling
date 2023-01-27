@@ -1,0 +1,38 @@
+.send-call-card{
+    background-color:#96DADA;
+    position:fixed;
+    z-index:40000;
+    width:100%;
+    height:100%;
+    top:0;
+    display:'block'  
+}
+.send-call-card .card-header{
+    padding:0;
+    margin-left:auto;
+    margin-right:auto;
+    right:0;
+    left:0;
+    border:0;
+    background-color:transparent;
+}
+.caller-headers{
+    display:flex;
+    justify-content: end;
+}
+.caller-details{
+    flex-direction:column;
+    align-items:center;
+    display:flex;
+}
+
+.caller_details h5,.caller_details h4{
+    text-align:center;
+    padding-top:10px;
+}
+
+.send-call-card .card-body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
